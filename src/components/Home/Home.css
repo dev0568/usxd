@@ -1,0 +1,294 @@
+.body {
+  background-color: white;
+}
+.left {
+  display: flex;
+  font-size: 20px;
+}
+.align {
+  background-color: rgb(246, 250, 250);
+}
+.logo {
+  padding: 7px;
+  height: 39px;
+}
+.id {
+  text-decoration: none;
+}
+.MuiTypography-colorTextSecondary {
+  color: rgba(0, 0, 0, 0.54);
+  /* padding: 75px; */
+}
+.MuiCard-root {
+  overflow: hidden;
+  height: 100% !important;
+}
+.MuiPaper-elevation1 {
+  box-shadow: none !important;
+}
+
+.maincontent p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+Grid .head {
+  text-align: left;
+  font-size: 96px;
+  color: #191d24;
+  position: relative;
+}
+
+p {
+  font-family: inherit !important;
+}
+CardContent Typography {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.main-head {
+  position: relative;
+  text-align: left;
+  line-height: 104px;
+  font-size: 96px;
+  color: "#191D24";
+}
+.section-1 {
+  position: absolute;
+  width: 100%;
+  max-width: min-content;
+  top: 477px;
+  left: 344px;
+}
+
+.section-2 {
+  position: absolute;
+  width: 100%;
+  max-width: min-content;
+  left: 34%;
+  top: 20%;
+}
+.section-3{
+    position: absolute;
+    width: 100%;
+    max-width: min-content;
+    left: 39%;
+    padding-bottom: 10px;  
+}
+.section-4{
+    position: absolute;
+    width: 100%;
+    max-width: min-content;
+    left: 29%;
+    top: 56%;
+    padding-bottom: 10px;
+}
+.title_home {
+  font-size: 96px;
+  text-align: left;
+  line-height: 104px;
+  position: relative;
+  color: #191d24;
+}
+.get_subtitle {
+  font-family: SVN-Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #6d7f9c;
+}
+.busd {
+  font-family: SVN-Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.threehundred {
+  font-family: SVN-Gilroy;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.para {
+  font-family: SVN-Gilroy;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #637592;
+}
+.card_img {
+  height: 281px;
+  width: 375px;
+  left: 24px;
+  top: 24px;
+  border-radius: 12px;
+}
+.active_btn {
+  font-family: SVN-Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  background-color: #47c278 !important;
+  border-radius: 12px !important;
+  padding: 16px !important;
+  margin-bottom: 10px !important;
+  
+}
+
+
+/* for shadow cards */
+.box {
+    transition: box-shadow .3s;
+    /* width: 300px; */
+    height: 500px;
+    /* margin: 50px; */
+    border-radius:40px;
+    /* border: 1px solid #ccc;
+    background: #fff;
+    float: left; */
+    padding:20px;
+    
+}
+.box:hover {
+    box-shadow: 0 0 21px rgba(33,33,33,.2); 
+}
+
+/* for network building section */
+/* for shadow cards */
+.box-2 {
+    transition: box-shadow .3s;
+    /* width: 300px; */
+    /* height: 500px; */
+    /* margin: 50px; */
+    border-radius:40px;
+    /* border: 1px solid #ccc;
+    background: #fff;
+    float: left; */
+    padding:20px;
+    
+}
+.box-2:hover {
+    box-shadow: 0 0 21px rgba(33,33,33,.2); 
+}
+
+
+/* Extra small devices (portrait tablets and large phones, 600px and low) */
+@media only screen and (max-width: 600px) {
+  .section-2 {
+    left: 0%;
+    top: 10%;
+  }
+  .section-1 {
+    top: 73%;
+    left: 11px;
+  }
+  .section-3{
+      left: 24%;
+  }
+  .features_sec {
+    padding: 0px 0px;
+    font-size: 32px;
+    line-height: 66px; 
+ }
+ .title_home {
+    font-size: 69px;
+    text-align: left;
+    line-height: 104px;
+    position: relative;
+    color: #191d24;
+  }
+  
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .section-2 {
+    left: 0%;
+    top: 20%;
+  }
+  .features_sec {
+    padding: 40px 82px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 84px;
+    color: #191d24;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .section-1 {
+    top: 665px;
+    left: 57px;
+  }
+  .section-2 {
+    left: 9%;
+    top: 30%;
+  }
+  .features_sec {
+    padding: 40px 82px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 84px;
+    color: #191d24;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .section-1 {
+    top: 476px;
+    left: 314px;
+  }
+  .section-2 {
+    left: 34%;
+    top: 19%;
+  }
+  .features_sec {
+    padding: 40px 82px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 84px;
+    color: #191d24;
+  }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .features_sec {
+        padding: 40px 82px;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 84px;
+        color: #191d24;
+    }
+    .section-1 {
+        top: 68%;
+        left: 0%;
+    }
+    .section-3{
+        left: 39%;
+    }
+}

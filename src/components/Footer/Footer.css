@@ -1,0 +1,69 @@
+.footer p{
+    padding: 12px;
+    font-size: 17px;
+}
+.email_input {
+    padding: 2px 4px;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    border-radius: 12px !important;
+}
+p{
+    font-family: SVN-Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    /* text-align: left; */
+
+}
+.get_notify{
+    font-size: 14px !important;
+    line-height: 24px !important;
+}
+.bottom_bar{
+    background-color: #191E24 !important;
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 33px 5px;
+    text-align:center;
+    margin: 0;
+}
+
+/* Extra small devices (portrait tablets and large phones, 600px and low) */
+@media only screen and (max-width: 600px) {
+    .email_input{
+        width: 220px;
+    }
+  }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .email_input{
+        width: 220px;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .email_input{
+        width: 150px;
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .email_input{
+        width: 220px;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .email_input{
+        width: 300px;
+    }
+  }

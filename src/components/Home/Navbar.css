@@ -1,0 +1,36 @@
+.typo Typography {
+  font-family: SVN-Gilroy !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: 24px !important;
+  letter-spacing: 0em !important;
+  text-align: left !important;
+}
+.type {
+  list-style-type: none;
+}
+
+.MuiPaper-elevation4 {
+  box-shadow: none !important;
+}
+.MuiTypography-colorTextSecondary {
+    color: rgba(0, 0, 0, 0.54);
+    
+}
+.typo Link{
+  font-family: SVN-Gilroy;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+Grid Typography {
+  justify-self: center;
+}
+/* 122a4d */
+.grid {
+  align-self: center
+}
